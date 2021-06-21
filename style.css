@@ -226,6 +226,7 @@ input:focus {
     align-items: center;
     justify-content: center;
     color: #0065fc;
+    margin-left: .8em;
 }
 
 .searchContent h2 {
@@ -646,8 +647,20 @@ footer div a {
     }
 }
 /* tablet device 768px */
-@media screen and (max-width: 768px) {
+@media screen only (max-width: 768px) {
 
+.searchContent p i {
+    margin-right: 1%;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    border: solid 2px #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0065fc;
+    margin-left: .8em;
+}
     .mostPopularContent {
         width: 100%;
         margin-bottom: 2em;
@@ -682,7 +695,20 @@ footer div a {
     .mostPopularContent .ratingStars {
         margin-top: 2em;
     }
+    .fa-chart-line:before {
+        content: "\f201";
+        padding-left: 52%;
+    }
 }
+/* .activitiesMaincontent */
+.articleLeft {
+    box-shadow: 6px 6px 6px #f2f2f2;
+    border-radius: 30px;
+    margin-bottom: 2em;
+    width: 90%;
+    margin: auto;
+}
+
 /*  SMARTPHONE SMALL DEVICES */
 @media screen and (max-width: 500px) {
     
