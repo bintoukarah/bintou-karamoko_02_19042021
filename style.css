@@ -647,7 +647,7 @@ footer div a {
     }
 }
 /* tablet device 768px */
-@media screen only (max-width: 768px) {
+@media only screen (max-device-width: 768px) {
 
 .searchContent p i {
     margin-right: 1%;
@@ -868,13 +868,13 @@ footer div a {
         height: 200px;
     }
 
+    footer .footerContent {
+        margin-left: 10%;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
     
     }
 /* footer content section      */
 
-footer .footerContent {
-    margin-left: 10%;
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-}
