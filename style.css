@@ -837,18 +837,22 @@ footer div a {
         width: 100%;
         max-height: 12em;
         max-width: none;
-  
     }
-
     .mostPopularContent a {
         width: 90%;
         margin-left: auto;
         margin-right: auto;
-
     }
+
     .mostGallery .ratingStars {
         margin-top: 3em;
     }
+    .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    /* container-activities */
     .articleLeft, .articleRight,.firstBloc , .secondbloc, .thirdBloc, .fourthBloc {
         width: 100%;
     }
