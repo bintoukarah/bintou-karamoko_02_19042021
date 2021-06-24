@@ -361,7 +361,7 @@ article h3, p, .ratingStars {
     border-radius: 20px;
     max-width: 22em;
     min-width: 19em;
-    height: 10em;
+  
     margin-bottom: 2em;
     background-color: #FFFFFF;
 }
@@ -715,6 +715,12 @@ footer div a {
         justify-content: flex-end;
         margin: 1em;
     }
+    /* filters */
+    .searchContent .filters ul {
+        margin-left: 0px;
+        padding-left: 0px;
+        width: 111%;
+    }
     /* hostingContent */
     .hostingContent {
         background-color: white;
@@ -741,6 +747,7 @@ footer div a {
         margin-left: 0;
     }
     
+   
 /* header content */
     
     .logo {
@@ -826,6 +833,9 @@ footer div a {
         border-radius: 0px;
         width: 100%;
     }
+    .subtitle_most{
+        width: 100%;
+    }
     .mostPopularContent img {
         max-width: 10em;
     }
@@ -844,14 +854,12 @@ footer div a {
         margin-right: auto;
     }
 
-    .mostGallery .ratingStars {
-        margin-top: 3em;
-    }
     .description {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
+    
     /* container-activities */
     .articleLeft, .articleRight,.firstBloc , .secondbloc, .thirdBloc, .fourthBloc {
         width: 100%;
