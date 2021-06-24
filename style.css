@@ -684,7 +684,7 @@ footer div a {
     }
     
     .mostPopularContent .ratingStars {
-        margin-top: 2em;
+        margin-top: 0em;
     }
     .fa-chart-line:before {
         content: "\f201";
@@ -862,7 +862,12 @@ footer div a {
     
     /* container-activities */
     .articleLeft, .articleRight,.firstBloc , .secondbloc, .thirdBloc, .fourthBloc {
-        width: 100%;
+        width: 94%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    };
     }
     .secondBloc {
         width: 100%;
@@ -873,7 +878,14 @@ footer div a {
     .articleRight img {
         height: 200px;
     }
-
+    .articleRight  {
+        width: 94%;
+        margin-bottom: 1em;
+    }
+    .thirdBloc{
+        width: 94%;
+        margin-bottom: 1em;
+    }
     footer .footerContent {
         margin-left: 10%;
         display: flex;
@@ -881,6 +893,6 @@ footer div a {
         margin: 0;
     }
     
-    }
+    
 /* footer content section      */
 
