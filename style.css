@@ -861,13 +861,13 @@ footer div a {
     }
     
     /* container-activities */
-    .articleLeft, .articleRight,.firstBloc , .secondbloc, .thirdBloc, .fourthBloc {
-        width: 94%;
+    .activitiesContainer{
+        width: 90%;
         margin: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    };
+    }
+    .articleLeft, .articleRight,.firstBloc , .secondbloc, .thirdBloc, .fourthBloc {
+        width: 100%;
+        margin: auto;
     }
     .secondBloc {
         width: 100%;
@@ -878,14 +878,7 @@ footer div a {
     .articleRight img {
         height: 200px;
     }
-    .articleRight  {
-        width: 94%;
-        margin-bottom: 1em;
-    }
-    .thirdBloc{
-        width: 94%;
-        margin-bottom: 1em;
-    }
+
     footer .footerContent {
         margin-left: 10%;
         display: flex;
@@ -893,6 +886,6 @@ footer div a {
         margin: 0;
     }
     
-    
+    }
 /* footer content section      */
 
