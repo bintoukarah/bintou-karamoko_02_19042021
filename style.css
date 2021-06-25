@@ -360,11 +360,9 @@ p,
 	border-radius: 20px;
 	max-width: 22em;
 	min-width: 19em;
-
 	margin-bottom: 2em;
 	background-color: #ffffff;
 }
-
 /* activities content section  */
 
 .activitiesTitle {
@@ -699,6 +697,10 @@ footer div a {
 
 /*  SMARTPHONE SMALL DEVICES */
 @media screen and (max-width: 500px) {
+	html,body{
+		width:100%;
+		overflow-x:hidden;
+		}
 	.mainContainer {
 		width: 100%;
 		margin: 0;
@@ -841,7 +843,7 @@ footer div a {
 
 	.mostPopularContent article {
 		width: 100%;
-		max-height: 12em;
+		max-height: 9em;
 		max-width: none;
 	}
 	.mostPopularContent a {
