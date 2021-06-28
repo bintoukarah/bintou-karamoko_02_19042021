@@ -27,7 +27,6 @@ header {
 	display: flex;
 	justify-content: space-between;
 }
-
 .nav {
 	display: flex;
 	flex-direction: row;
@@ -290,7 +289,7 @@ h3,
 }
 
 .hostingContent article {
-	border: 3px #ffffff solid;
+	border: 3px whitesmoke solid;
 	border-radius: 20px;
 	width: 29%;
 	height: 25%;
@@ -730,13 +729,13 @@ footer div a {
 		margin-top: 2em;
 	}
 	.hostingContent article {
-		box-shadow: 6px 6px 6px #EFEFEF;
+		box-shadow: 6px 6px 6px lightgray;
 		border-radius: 20px;
 		width: 90%;
 		height: 25%;
 		min-width: 12em;
 		margin-bottom: 2em;
-		background-color: white;
+		background-color:white;
 	}
 	/* .mostPopularContent */
 	.mostPopularContent {
